@@ -1,0 +1,8 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 2.5vh 10vw;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
