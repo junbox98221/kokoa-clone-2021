@@ -1,0 +1,21 @@
+.screen-header-div {
+  position: relative;
+}
+.screen-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vh;
+  padding-top: 5vh;
+  box-sizing: border-box;
+  position: fixed;
+  top: 10;
+}
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 1000;
+}
+.screen-header__icons span {
+  margin-left: 30px;
+}
