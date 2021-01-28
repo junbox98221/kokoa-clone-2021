@@ -3,8 +3,9 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 3vh;
-  padding-top: 5vh;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+
   box-sizing: border-box;
 }
 .screen-header__title {

@@ -17,16 +17,6 @@
   color: #2e363e;
 }
 .nav__notification {
-  background-color: tomato;
-  color: white;
-  width: 3vh;
-  height: 3vh;
-  border-radius: 50%;
-  display: flex;
-  font-size: large;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
   position: absolute;
   left: 17px;
   bottom: 13px;
@@ -36,8 +26,8 @@
   width: 0.7vh;
   height: 0.7vh;
   display: flex;
-  position: absolute;
   border-radius: 50%;
+  position: absolute;
   left: 30px;
   bottom: 27px;
 }
