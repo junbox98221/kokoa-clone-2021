@@ -15,3 +15,16 @@
 .screen-header__icons span {
   margin-left: 30px;
 }
+.screen_dot-parent {
+  position: relative;
+}
+.screen__dot {
+  margin: 0px 0px;
+  background-color: tomato;
+  width: 0.5vh;
+  height: 0.5vh;
+  display: flex;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+}
