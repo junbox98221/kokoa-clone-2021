@@ -21,10 +21,7 @@
   font-size: 16px;
   margin-bottom: 25px;
 }
-.open-chat__header span {
-  opacity: 0.6;
-  font-size: 18px;
-}
+
 .open-post {
   display: flex;
   justify-content: space-between;
@@ -85,4 +82,27 @@
 }
 .open-post__heart-count span {
   margin-left: 3px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.8);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-chat__header span {
+  opacity: 0.6;
+  font-size: 18px;
+}
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }
