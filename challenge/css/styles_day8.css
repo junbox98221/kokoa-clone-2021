@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Pangolin", cursive;
+}
+
+.container {
+  border: 6px solid #01c6ae;
+  width: 450px;
+  height: 1200px;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+.first_row {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  align-items: center;
+  margin: 73px 0;
+}
+.xxx {
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+.content {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  font-weight: 1000;
+}
+
+.content:first-child {
+  display: flex;
+  justify-content: center;
+}
+.second_row {
+  display: flex;
+  width: 100%;
+}
+
+.img_box {
+  border-radius: 15%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: white;
+  background-color: #ffbd11;
+  border: 3px solid black;
+}
+
+.detail {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex;
+  margin-left: 20px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  margin-top: 20px;
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+}
+.third_row {
+  display: flex;
+  font-size: 40px;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.button_column {
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px;
+}
+.button_column:first-child {
+  border-radius: 20px;
+  width: 230px;
+  height: 80px;
+}
+.button_column:nth-child(2) {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+.button_column:last-child {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+.fourth_row {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.song {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  border: 2px solid #01c6ae;
+}
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+  border: 3px solid black;
+}
+.singer,
+.song_title {
+  font-family: "Nanum Pen Script", cursive;
+
+  margin-left: 20px;
+}
+.song_title {
+  font-size: 50px;
+}
+.singer {
+  font-size: 30px;
+}
